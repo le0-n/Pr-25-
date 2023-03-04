@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: "Bebas Neue", cursive;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+.container .box {
+  width: 1000px;
+  height: 700px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  padding: 2%;
+}
+.container .box .mainCount {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+.container .box .mainCount #mainCountBtnMinus {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .mainCount #mainCountBtnMinus:hover {
+  transform: scale(1.1);
+  background: #b62400;
+}
+.container .box .mainCount #mainCountBtnPlus {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .mainCount #mainCountBtnPlus:hover {
+  transform: scale(1.1);
+  background: #b62400;
+}
+.container .box .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .box .content .left {
+  width: 300px;
+  height: 400px;
+  background: #f5522a;
+  border-radius: 20px;
+  padding: 2.5%;
+}
+.container .box .content .left h2 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container .box .content .left .conA {
+  margin-top: 15%;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.container .box .content .left .conA .ConAleft {
+  width: 50%;
+}
+.container .box .content .left .conA .ConAleft p {
+  padding: 0 0 0 10%;
+}
+.container .box .content .left .conA .ConAleft #conABtnMinus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .left .conA .ConAleft #conABtnMinus:hover {
+  background: #b62400;
+}
+.container .box .content .left .conA .ConAleft #conABtnPlus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .left .conA .ConAleft #conABtnPlus:hover {
+  background: #b62400;
+}
+.container .box .content .left .conA .ConAright {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box .content .left .conA .ConAright h1 {
+  font-size: 60px;
+}
+.container .box .content .left .conB {
+  margin-top: 10%;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.container .box .content .left .conB .ConBleft {
+  width: 50%;
+}
+.container .box .content .left .conB .ConBleft p {
+  padding: 0 0 0 10%;
+}
+.container .box .content .left .conB .ConBleft #conBBtnMinus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .left .conB .ConBleft #conBBtnMinus:hover {
+  background: #b62400;
+}
+.container .box .content .left .conB .ConBleft #conBBtnPlus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .left .conB .ConBleft #conBBtnPlus:hover {
+  background: #b62400;
+}
+.container .box .content .left .conB .ConBright {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box .content .left .conB .ConBright h1 {
+  font-size: 60px;
+}
+.container .box .content .right {
+  width: 300px;
+  height: 400px;
+  background: #f5522a;
+  border-radius: 20px;
+  padding: 2.5%;
+}
+.container .box .content .right h2 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container .box .content .right .conC {
+  margin-top: 15%;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.container .box .content .right .conC .ConCleft {
+  width: 50%;
+}
+.container .box .content .right .conC .ConCleft p {
+  padding: 0 0 0 10%;
+}
+.container .box .content .right .conC .ConCleft #conCBtnMinus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .right .conC .ConCleft #conCBtnMinus:hover {
+  background: #b62400;
+}
+.container .box .content .right .conC .ConCleft #conCBtnPlus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .right .conC .ConCleft #conCBtnPlus:hover {
+  background: #b62400;
+}
+.container .box .content .right .conC .ConCright {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box .content .right .conC .ConCright h1 {
+  font-size: 60px;
+}
+.container .box .content .right .conD {
+  margin-top: 10%;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+}
+.container .box .content .right .conD .ConDleft {
+  width: 50%;
+}
+.container .box .content .right .conD .ConDleft p {
+  padding: 0 0 0 10%;
+}
+.container .box .content .right .conD .ConDleft #conDBtnMinus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .right .conD .ConDleft #conDBtnMinus:hover {
+  background: #b62400;
+}
+.container .box .content .right .conD .ConDleft #conDBtnPlus {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #f5522a;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+.container .box .content .right .conD .ConDleft #conDBtnPlus:hover {
+  background: #b62400;
+}
+.container .box .content .right .conD .ConDright {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box .content .right .conD .ConDright h1 {
+  font-size: 60px;
+}/*# sourceMappingURL=style.css.map */

@@ -23,6 +23,7 @@
   border-radius: 20px;
   background: linear-gradient(to right, #f7971e, #ffd200);
   padding: 2%;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
 }
 .container .box .mainCount {
   width: 100%;
@@ -39,6 +40,7 @@
   border-bottom-left-radius: 20px;
   background: #f5522a;
   color: antiquewhite;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
   transition: all 0.5s ease;
 }
 .container .box .mainCount #mainCountBtnMinus:hover {
@@ -54,6 +56,7 @@
   border-bottom-right-radius: 20px;
   background: #f5522a;
   color: antiquewhite;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
   transition: all 0.5s ease;
 }
 .container .box .mainCount #mainCountBtnPlus:hover {
@@ -73,6 +76,7 @@
   background: #f5522a;
   border-radius: 20px;
   padding: 2.5%;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
 }
 .container .box .content .left h2 {
   color: black;
@@ -193,6 +197,7 @@
   background: #f5522a;
   border-radius: 20px;
   padding: 2.5%;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
 }
 .container .box .content .right h2 {
   color: black;

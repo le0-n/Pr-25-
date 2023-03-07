@@ -21,6 +21,7 @@
         border-radius: 20px;
         background: linear-gradient(to right, #f7971e, #ffd200);
         padding: 2%;
+        box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
         .mainCount {
             width: 100%;
             display: flex;
@@ -35,6 +36,7 @@
                 border-bottom-left-radius: 20px;
                 background: #f5522a;
                 color: antiquewhite;
+                box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
                 transition: all .5s ease;
                 &:hover {
                     transform: scale(1.1);
@@ -50,6 +52,7 @@
                 border-bottom-right-radius: 20px;
                 background: #f5522a;
                 color: antiquewhite;
+                box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
                 transition: all .5s ease;
                 &:hover {
                     transform: scale(1.1);
@@ -69,6 +72,7 @@
                 background: #f5522a;
                 border-radius: 20px;
                 padding: 2.5%;
+                box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
                 h2 {
                     color: black;
                     text-transform: uppercase;
@@ -189,6 +193,7 @@
                 background: #f5522a;
                 border-radius: 20px;
                 padding: 2.5%;
+                box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
                 h2 {
                     color: black;
                     text-transform: uppercase;

@@ -14,14 +14,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #a1ffce, #faffd1);
     .box {
         width: 1000px;
         height: 700px;
         border-radius: 20px;
         background: linear-gradient(to right, #f7971e, #ffd200);
         padding: 2%;
-        box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
         .mainCount {
             width: 100%;
             display: flex;
@@ -36,7 +34,6 @@
                 border-bottom-left-radius: 20px;
                 background: #f5522a;
                 color: antiquewhite;
-                box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
                 transition: all .5s ease;
                 &:hover {
                     transform: scale(1.1);
@@ -52,7 +49,6 @@
                 border-bottom-right-radius: 20px;
                 background: #f5522a;
                 color: antiquewhite;
-                box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.356);
                 transition: all .5s ease;
                 &:hover {
                     transform: scale(1.1);
@@ -72,7 +68,6 @@
                 background: #f5522a;
                 border-radius: 20px;
                 padding: 2.5%;
-                box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
                 h2 {
                     color: black;
                     text-transform: uppercase;
@@ -87,7 +82,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: linear-gradient(to right, #f7971e, #ffd200);
+                    background: #F89B1C;
+                    // background: linear-gradient(to right, #f7971e, #ffd200);
                     .ConAleft {
                         width: 50%;
                         p {
@@ -141,7 +137,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: linear-gradient(to right, #f7971e, #ffd200);
+                    background: #F89B1C;
+                    // background: linear-gradient(to right, #f7971e, #ffd200);
                     .ConBleft {
                         width: 50%;
                         p {
@@ -193,7 +190,6 @@
                 background: #f5522a;
                 border-radius: 20px;
                 padding: 2.5%;
-                box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.356);
                 h2 {
                     color: black;
                     text-transform: uppercase;
@@ -208,7 +204,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: linear-gradient(to right, #f7971e, #ffd200);
+                    background: #F89B1C;
+                    // background: linear-gradient(to right, #f7971e, #ffd200);
                     .ConCleft {
                         width: 50%;
                         p {
@@ -262,7 +259,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: linear-gradient(to right, #f7971e, #ffd200);
+                    background: #F89B1C;
+                    // background: linear-gradient(to right, #f7971e, #ffd200);
                     .ConDleft {
                         width: 50%;
                         p {
